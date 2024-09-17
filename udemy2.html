@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        label {display: block;
+        margin-bottom: 5px;
+    padding: 5px;}
+
+        input{
+            padding: 9px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Formulario</h2>
+    <form action="destino.html" method="post">
+        <label for="nome">Nome Completo</label>
+        <input type="text" name="nome" id="nome" required>
+    </form>
+
+    <form action="destino.html" method="post">
+        <label for="nome">Telefone</label>
+        <input type="tel" telefone="nome" id="telefone">
+
+        <form action="destino.html" method="post">
+            <label for="nome">Email</label>
+            <input type="email" name="Email" id="Email">
+        </form>
+
+        <input type="submit" value="Enviar" id="enviar" name="enviar">
+    </form>
+    
+</body>
+</html>
